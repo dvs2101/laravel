@@ -1,16 +1,6 @@
 build_settings:
   verbose: false
   prefer_symlink: false
-
 setup:
-  shell:
-    command: "chmod -R 777 /home/user/www/test.local"
-
-failure:
-  email:
-    committer: true
-    default_mailto_address: dvs2101@gmail.com
-
-complete:
-  email:
-    default_mailto_address: dvs2101@gmail.com
+    shell:
+        - "cd %BUILD_PATH% && php artisan migrate" # Laravel Migrations
