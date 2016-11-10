@@ -1,6 +1,3 @@
-build_settings:
-  verbose: false
-  prefer_symlink: false
 setup:
     shell:
         - "cd %BUILD_PATH% && php artisan migrate" # Laravel Migrations
