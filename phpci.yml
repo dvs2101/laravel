@@ -13,8 +13,7 @@ setup:
     path: "tests/"
     
     shell:
-      - "sudo chmod -R 777 /home/user/www/test.local/storage"
-      - "sudo chmod -R 777 /home/user/www/test.local/public"
+      command: "chmod -R 777 /home/user/www/test.local"
 
 failure:
   email:
