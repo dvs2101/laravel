@@ -11,6 +11,10 @@ setup:
     config:
       - "phpunit.xml"
     path: "tests/"
+    
+    shell:
+      - "sudo chmod -R 777 /home/user/www/test.local/storage"
+      - "sudo chmod -R 777 /home/user/www/test.local/public"
 
 failure:
   email:
