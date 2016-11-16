@@ -1,7 +1,8 @@
 setup:
-    composer:
+    #composer:
         #directory: "/home/user/www/test.local"
-        action: "install"
+        #action: "install"
     shell:
+        - "cd /home/user/www/test.local && git pull"
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
         - "sudo chmod -R 777 /home/user/www/test.local/public"
