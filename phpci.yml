@@ -6,6 +6,6 @@ setup:
         - "cd /home/user/www/test.local && git pull"
         - "cd /home/user/www/test.local && php composer.phar update"
         - "cd /home/user/www/test.local && php artisan migrate --force"
-        - "cd /home/user/www/test.local && php artisan locations"
+        #- "cd /home/user/www/test.local && php artisan locations"
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
         - "sudo chmod -R 777 /home/user/www/test.local/public"
