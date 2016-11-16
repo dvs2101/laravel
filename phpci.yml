@@ -3,5 +3,5 @@ setup:
         directory: "/home/user/www/test.local"
         action: "update"
     shell:
-        - "sudo chmod -R 777 /home/user/www/test.local/storage" 
-        - "sudo chmod -R 777 /home/user/www/test.local/public" 
+        - "sudo chmod -R 777 /home/user/www/test.local/storage"
+        - "sudo chmod -R 777 /home/user/www/test.local/public"
