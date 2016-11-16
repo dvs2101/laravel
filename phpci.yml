@@ -1,6 +1,6 @@
 setup:
     composer:
-        directory: "/home/user/www/test.local"
+        #directory: "/home/user/www/test.local"
         action: "update"
     shell:
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
