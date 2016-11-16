@@ -1,7 +1,7 @@
 setup:
     composer:
         #directory: "/home/user/www/test.local"
-        action: "update"
+        action: "install"
     shell:
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
         - "sudo chmod -R 777 /home/user/www/test.local/public"
