@@ -2,7 +2,6 @@ setup:
     composer:
         directory: "/home/user/www/test.local"
         action: "update"
-        prefer_dist: true
     shell:
         - "sudo chmod -R 777 /home/user/www/test.local/storage" 
         - "sudo chmod -R 777 /home/user/www/test.local/public" 
