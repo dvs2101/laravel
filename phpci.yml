@@ -9,3 +9,12 @@ setup:
         #- "cd /home/user/www/test.local && php artisan locations"
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
         - "sudo chmod -R 777 /home/user/www/test.local/public"
+            
+failure:
+  email:
+    committer: true
+    default_mailto_address: dvs2101@gmail.com
+
+complete:
+  email:
+    default_mailto_address: dvs2101@gmail.com
