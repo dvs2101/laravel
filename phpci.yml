@@ -7,6 +7,7 @@ build_settings:
         - "public"
         - "routes"
         - "vendor"
+        - "test.txt"
 setup:
     #composer:
         #directory: "/home/user/www/test.local"
