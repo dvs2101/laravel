@@ -1,3 +1,12 @@
+build_settings:
+    clone_depth: 
+    ignore:
+        - "app"
+        - "bootstrap"
+        - "database"
+        - "public"
+        - "routes"
+        - "vendor"
 setup:
     #composer:
         #directory: "/home/user/www/test.local"
@@ -10,11 +19,4 @@ setup:
         - "sudo chmod -R 777 /home/user/www/test.local/storage"
         - "sudo chmod -R 777 /home/user/www/test.local/public"
             
-failure:
-  email:
-    committer: true
-    default_mailto_address: dvs2101@gmail.com
 
-complete:
-  email:
-    default_mailto_address: dvs2101@gmail.com
